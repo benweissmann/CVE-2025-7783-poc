@@ -1,0 +1,19 @@
+{
+  "name": "form-data-vuln",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-backend": "node backend.js",
+    "start-vulnerable-server": "node vulnerable-server.js",
+    "run-exploit": "node exploit.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "form-data": "^4.0.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "type": "module"
+}
